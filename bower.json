@@ -1,0 +1,22 @@
+{
+  "name": "zt",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Leo Casagrande <leo@greenberry.io>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.6",
+    "materialize": "^0.100.2"
+  }
+}

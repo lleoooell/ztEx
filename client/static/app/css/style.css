@@ -1,0 +1,44 @@
+.searchZone{
+	width: 20%;
+
+}
+.listZone{
+	width: 80%
+}
+.mainWrap{
+	padding-top: 100px;
+}
+.flexWrap{
+	display: flex;
+	 align-items:flex-start;
+	 // align-content:center;
+	flex-wrap: wrap;
+	 justify-content :space-between;
+
+}
+
+.flexItem{
+	width:200px;
+	height: 290px;
+	background: red;
+	display: flex;
+	align-items : flex-end;
+	align-content: center;
+	justify-content :center;
+	background-repeat: no-repeat !important;
+    background-position: center center !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+    margin-bottom: 20px;
+}
+
+.flexItem > span {
+    color: white;
+    background: rgb(0, 0, 0);
+    padding: 10px 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
